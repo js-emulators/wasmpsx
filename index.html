@@ -319,13 +319,20 @@ canvas.emscripten
  
 
 
-  <input type="file"  onchange="WASMpsx.readFile(this.files[0])" />
+  <input type="file"  onchange="WASMpsx.readFile(this.files[0]); newText();" />
 
 
 
    
 
   <script type="text/javascript" src="wasmpsx.min.js"></script>
+  <script>
+    function newText(){
+    var elm=document.createElement('p');
+      elm.innerHTML="Loading....";
+      document.body.appendChild(elm);
+    }
+  </script>
 </body>
 
 </html>
