@@ -1,4 +1,4 @@
-# wasmpsx
+# WASMpsx
 A fork of TJWei's PlayStation emulator to use for your own purposes.
 ![Screenshot](/screenshots/turismo.png)
 
