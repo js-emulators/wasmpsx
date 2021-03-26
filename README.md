@@ -1,5 +1,6 @@
 # wasmpsx
 A fork of TJWei's PlayStation emulator to use for your own purposes.
+![Screenshot](/screenshots/turismo.png)
 
 # Usage
 To use WASMpsx, use this example script:
