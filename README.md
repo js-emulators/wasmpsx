@@ -5,10 +5,10 @@ A fork of TJWei's PlayStation emulator to use for your own purposes.
 # Adding to website
 To add this to your website, download these four scripts:
 
-### - wasmpsx.min.js
-### - wasmpsx_worker.js
-### - wasmpsx_worker.wasm
-### - wasmpsx_ww.wasm
+### - [wasmpsx.min.js](https://unzor.github.io/wasmpsx/wasmpsx.min.js)
+### - [wasmpsx_worker.js](https://unzor.github.io/wasmpsx/wasmpsx_worker.js)
+### - [wasmpsx_worker.wasm](https://unzor.github.io/wasmpsx/wasmpsx_worker.wasm)
+### - [wasmpsx_ww.wasm](https://unzor.github.io/wasmpsx/wasmpsx_ww.wasm)
 
 Then, add them to your website and create a ```<script>``` tag like this:
 
