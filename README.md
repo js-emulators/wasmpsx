@@ -23,8 +23,10 @@ After those steps, you are ready to use WASMpsx!
 To use WASMpsx, use this example script:
 
 ```
-WASMpsx.loadUrl('URL of PlayStation ISO (only .bin and .iso are accepted)');
+WASMpsx.loadUrl('/path/to/granturismo.bin');
 ```
+
+#### Note: does not come with example ROM files.
 
 And to load files, not URLs, use this script:
 
