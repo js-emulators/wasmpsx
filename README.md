@@ -15,9 +15,9 @@ And to load files, not URLs, use this script:
 WASMpsx.readFile(file here, useful for file input);
 ```
 
-To add a display, add a ```<canvas>``` element with the ID of "wasmpsx-canvas."
+To add a display, add a ```wasmpsx-player``` element.
 
 Example element:
 ```
-<canvas id="wasmpsx-canvas" width="640" height="480"></canvas>
+<wasmpsx-player width="640" height="480"></wasmpsx-player>
 ```
