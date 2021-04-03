@@ -21,9 +21,3 @@ Example element:
 ```
 <canvas id="wasmpsx-canvas" width="640" height="480"></canvas>
 ```
-
-And to read files (not URLs), use this script:
-
-```
-WASMpsx.readFile(file here);
-```
