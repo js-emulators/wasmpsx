@@ -9,6 +9,12 @@ To use WASMpsx, use this example script:
 WASMpsx.loadUrl('URL of PlayStation ISO (only .bin and .iso are accepted)');
 ```
 
+And to load files, not URLs, use this script:
+
+```
+WASMpsx.readFile(file here, useful for file input);
+```
+
 To add a display, add a ```<canvas>``` element with the ID of "wasmpsx-canvas."
 
 Example element:
