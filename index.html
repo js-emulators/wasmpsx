@@ -319,7 +319,7 @@ canvas.emscripten
  
 
 
-  <input type="file"  onchange="WASMpsx.readFile(this.files[0]); newText();" />
+  <input type="file"  onchange="document.querySelector('wasmpsx-player').readFile(this.files[0]); newText();" />
 
 
 
