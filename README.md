@@ -3,7 +3,7 @@ A fork of TJWei's PlayStation emulator to use for your own purposes.
 ![Screenshot](/screenshots/turismo.png)
 
 # Adding to website
-To add this to your website, click [here](http://download-wasmpsx.glitch.me/) to download the WASMpsx source code as a ZIP file.
+To add this to your website, click [here](http://download-wasmpsx.glitch.me/) so you can download the WASMpsx source code as a ZIP file.
 
 Then, add them to your website and create a ```<script>``` tag like this:
 
