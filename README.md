@@ -23,7 +23,7 @@ After those steps, you are ready to use WASMpsx!
 To use WASMpsx, use this example script:
 
 ```
-WASMpsx.loadUrl('/path/to/granturismo.bin');
+document.getElementById('my-wasmpsx-element').loadUrl('/path/to/granturismo.bin');
 ```
 
 #### Note: does not come with example ROM files.
@@ -31,12 +31,12 @@ WASMpsx.loadUrl('/path/to/granturismo.bin');
 And to load files, not URLs, use this script:
 
 ```
-WASMpsx.readFile(file here, useful for file input);
+document.getElementById('my-wasmpsx-element').readFile(file here, useful for file input);
 ```
 
 To add a display, add a ```wasmpsx-player``` element.
 
 Example element:
 ```
-<wasmpsx-player></wasmpsx-player>
+<wasmpsx-player id="my-wasmpsx-element"></wasmpsx-player>
 ```
