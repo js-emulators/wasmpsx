@@ -10,6 +10,16 @@ Then, add them to your website and create a ```<script>``` tag like this:
  ```
  <script src="path/to/wasmpsx.min.js"></script>
  ```
+ 
+ Also, please make sure that your site correctly serves .wasm files. To do this:
+ ## Apache
+ ```
+ AddType application/wasm .wasm
+```
+## Nginx
+```
+types { application/wasm wasm; }
+```
 
 After those steps, you are ready to use WASMpsx!
 
